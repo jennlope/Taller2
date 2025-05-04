@@ -16,7 +16,7 @@ def pokenea_json():
         "contenedor": get_container_id()
     })
 
-@main.route('/pokenea/view')
+@main.route('/pokenea/vista')
 def pokenea_view():
     p = random.choice(pokeneas)
     html = f"""
